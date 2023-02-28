@@ -1,0 +1,100 @@
+body {
+    background:url(Media/HalloweenBakgrunn.png);
+    background-color: black;
+}
+
+#container {
+    display: grid;
+    height: 180.5vh;
+    grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
+    grid-template-rows: 0.15fr 0.45fr 0.9fr 0.9fr 0.9fr 0.6fr;
+    grid-template-areas:
+        "nav nav nav nav"
+        "m main main n"
+        "a bilde2 content2 xn"
+        "a content1 content2 c"
+        "a content1 bilde1 c"
+        "footer footer footer footer";
+        grid-gap: 0.4rem;
+        text-align: center;
+        
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(75, 75, 75);
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: 120px;
+
+}
+
+
+#content1 {
+    grid-area: content1;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#content2 {
+    grid-area: content2;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: 50px;
+}
+
+#bilde1 {
+    grid-area: bilde1;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#bilde2 {
+    grid-area: bilde2;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(24, 24, 24);;
+    padding-top: -10px;
+    font-size: 19p
+}
+
+
+
+
+#menykonteiner  {
+    text-align: center;
+    width: 100%;
+}
+
+#menykonteiner li   {
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#menykonteiner a {
+    text-decoration: none;
+}
+
+#menykonteiner a:hover  {
+    color: black;
+    font-size: 100%;
+    text-decoration:none;
+}
