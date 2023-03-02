@@ -9,10 +9,11 @@ body {
     grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
     grid-template-rows: 0.15fr 0.45fr 0.9fr 0.9fr 0.9fr 0.6fr;
     grid-template-areas:
-        "main main main bilde"
+        "main main main bildep"
         "nav nav nav nav"
         "a content1 bilde1 xn"
         "a content1 bilde2 c"
+        "a content2 content2 c"
         "footer footer footer footer";
         grid-gap: 0.4rem;
         text-align: center;
@@ -62,6 +63,13 @@ main {
 
 #bilde2 {
     grid-area: bilde2;
+    background-color: rgb(75, 75, 75);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#bildep {
+    grid-area: bilde1;
     background-color: rgb(75, 75, 75);
     border-radius: 5px;
     padding-top: 5px;
