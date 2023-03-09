@@ -1,6 +1,6 @@
 body {
     background:url(Media/HalloweenBakgrunn.png);
-    background-color: rgb(149, 197, 180);
+    background-color: rgb(240, 244, 243);
 }
 
 #container {
@@ -22,14 +22,14 @@ body {
 
 nav {
     grid-area: nav;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     padding-top: 5px;
     font-size: 19px;
 }
 
 main {
     grid-area: main;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 12px;
     font-size: 100px;
@@ -41,17 +41,17 @@ main {
 
 #content1 {
     grid-area: content1;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
 }
 
 
 #content2 {
     grid-area: content2;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
     font-size: 50px;
@@ -59,28 +59,28 @@ main {
 
 #bilde1 {
     grid-area: bilde1;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
 }
 
 #bilde2 {
     grid-area: bilde2;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
 }
 
 #bildep {
     grid-area: bildep;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
 }
 
 footer {
     grid-area: footer;
-    background-color: rgb(204, 227, 213);
+    background-color: rgb(218, 230, 223);
     padding-top: -10px;
     font-size: 19p
 }

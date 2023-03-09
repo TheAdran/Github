@@ -1,19 +1,19 @@
 body {
     background:url(Media/HalloweenBakgrunn.png);
-    background-color: black;
+    background-color: rgb(240, 244, 243);
 }
 
 #container {
     display: grid;
     height: 180.5vh;
-    grid-template-columns: 0.6fr 1.4fr 1.4fr 0.6fr;
-    grid-template-rows: 0.15fr 0.45fr 0.9fr 0.9fr 0.9fr 0.6fr;
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: 0.15fr 0.35fr 0.9fr 0.9fr 0.9fr 0.6fr;
     grid-template-areas:
-        "main main main bilde"
+        "A main bildep AC"
         "nav nav nav nav"
-        "a content1 bilde1 xn"
-        "a content1 bilde2 c"
-        "a content2 content2 c"
+        "a content1 content2 xn"
+        "a content1 content2 c"
+        "a content1 content2 c"
         "footer footer footer footer";
         grid-gap: 0.4rem;
         text-align: center;
@@ -22,61 +22,71 @@ body {
 
 nav {
     grid-area: nav;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(218, 230, 223);
     padding-top: 5px;
     font-size: 19px;
 }
 
 main {
     grid-area: main;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
-    padding-top: 5px;
-    font-size: 120px;
-
+    padding-top: 12px;
+    font-size: 100px;
+    text-align: left;
+    padding-left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 #content1 {
     grid-area: content1;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
     font-size: 50px;
-    text-align: center;
+    text-align: left;
+    padding-left: 35px;
 }
 
+ 
 #content2 {
     grid-area: content2;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
     font-size: 50px;
+    text-align: left;
+    padding-left: 35px;
 }
 
 #bilde1 {
     grid-area: bilde1;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
 }
 
 #bilde2 {
     grid-area: bilde2;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(218, 230, 223);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+#bildep {
+    grid-area: bildep;
+    background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
 }
 
 footer {
     grid-area: footer;
-    background-color: rgb(24, 24, 24);;
+    background-color: rgb(218, 230, 223);
     padding-top: -10px;
     font-size: 19p
 }
-
-
-
 
 #menykonteiner  {
     text-align: center;
