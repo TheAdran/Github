@@ -11,9 +11,9 @@ body {
     grid-template-areas:
         "A main bildep AC"
         "nav nav nav nav"
-        "a content1 bilde1 xn"
+        "a content2 content2 xn"
+        "a content1 bilde1 c"
         "a content1 bilde2 c"
-        "a content2 content2 c"
         "footer footer footer footer";
         grid-gap: 0.4rem;
         text-align: center;
@@ -44,8 +44,9 @@ main {
     background-color: rgb(218, 230, 223);
     border-radius: 5px;
     padding-top: 5px;
-    font-size: 35px;
-    text-align: center;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 35px;
 }
 
 
@@ -55,6 +56,8 @@ main {
     border-radius: 5px;
     padding-top: 5px;
     font-size: 50px;
+    text-align: left;
+    padding-left: 35px;
 }
 
 #bilde1 {
