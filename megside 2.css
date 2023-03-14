@@ -11,9 +11,9 @@ body {
     grid-template-areas:
         "A main bildep AC"
         "nav nav nav nav"
-        "a content1 content2 xn"
-        "a content1 content2 c"
-        "a content1 content2 c"
+        "a content2 content2 xn"
+        "a content1 bilde1 c"
+        "a content1 bilde2 c"
         "footer footer footer footer";
         grid-gap: 0.4rem;
         text-align: center;
@@ -49,7 +49,7 @@ main {
     padding-left: 35px;
 }
 
- 
+
 #content2 {
     grid-area: content2;
     background-color: rgb(218, 230, 223);
